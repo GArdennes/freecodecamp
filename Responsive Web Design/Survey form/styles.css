@@ -1,0 +1,84 @@
+body{
+    top: 0;
+    left: 0;
+    position: none;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.8),
+      rgba(136, 136, 206, 0.7)
+    ), url(https://community.thriveglobal.com/wp-content/uploads/2019/04/black-collaboration-cooperation-943630.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: centre;    
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.form-group {
+    width: 80%;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px; 
+}
+
+div {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #393946;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea, select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input, textarea {
+    background-color: #dfdfe7;
+    border: 1px solid #d9d9e3;
+    color: #3b3535
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: green;
+  color: #f3f1f0;
+  border-radius: 2px;
+  cursor: pointer;
+}
