@@ -1,0 +1,1 @@
+Learning responsive web application development by building a Tribute page.
