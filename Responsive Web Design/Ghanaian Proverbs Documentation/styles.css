@@ -107,6 +107,7 @@ code {
         width: 100%;
         max-height: 275px;
         border: none;
+        overflow: hidden;
         z-index: 1;
         border-bottom: 2px solid;
     }
